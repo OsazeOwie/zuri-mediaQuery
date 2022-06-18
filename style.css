@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    background-image: url(/img/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.form {
+    background-color: aliceblue;
+    padding: 1em 0;
+    border-radius: 10px; 
+    color: hsl(246, 25%, 77%);
+    box-shadow: rgba(0, 0, 0, 0.171) 0px 10px;
+}
+
+.form p {
+    width: 60%;
+    margin: 10px auto;
+    font-size: 12px;
+}
+
+.form--con {
+    padding: .7em;
+}
+
+article {
+    background-color: hsl(248, 32%, 49%);
+    padding: .7em;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.171) 0px 10px;
+}
+
+article p {
+    padding: 0 4em;
+}
+
+input {
+    height: 3em;
+    width: 22.3em;
+    margin-bottom: 20px;
+    border: 1px solid rgb(221, 213, 213);
+    border-radius: 5px;
+    padding: 0 .7em;
+}
+
+button {
+    cursor: pointer;
+    padding: 1.3em 5em;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+@media (min-width: 870px) {
+    body {
+        background-image: url(/img/bg-intro-desktop.png);
+    }
+
+    .container {
+        display: flex;
+        padding: 5em;
+        justify-content: space-around;
+    }
+
+    .content {
+        align-self: center;
+        text-align: left;
+        width: 48%;
+    }
+
+    .content h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    article p {
+        padding: 0 0;
+    }
+    
+}
