@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script async src="/script.js"></script>
 </head>
 
 <body>
@@ -28,18 +29,19 @@
                 </p>
             </article>
 
-            <div class="form">
-                <input type="text" name="" id="" placeholder="First Name"> <br> 
-                <input type="text" name="" id="" placeholder="Last Name"> <br> 
-                <input type="email" name="" id="" placeholder="Email Address"> <br>
-                <input type="password" name="" id="" placeholder="Password"> <br>
-                <button>claim your free trial</button>
+            <form class="form" onsubmit="return valid();">
+                <input type="text" minlength="6" name="" id="fname" placeholder="First Name"><br> 
+                <input type="text" minlength="6"  name="" id="lname" placeholder="Last Name"> <br> 
+                <input type="email" name="" id="email" placeholder="Email Address"> <br>
+                <input type="password" minlength="8"  name="" id="password" placeholder="Password"> <br>
+                <button type="submit">claim your free trial</button>
                 <p>
                     By clicking the button, you are agreeing to our <span style="color: hsl(0, 100%, 74%); font-weight: bold; cursor: pointer;">Terms and Services</span>
                 </p>
-            </div>
+            </form>
         </div>
     </div>
+    
 </body>
 
 </html>
