@@ -30,11 +30,23 @@
             </article>
 
             <form class="form" onsubmit="return valid();">
-                <input type="text" minlength="6" name="" id="fname" placeholder="First Name"><br> 
-                <input type="text" minlength="6"  name="" id="lname" placeholder="Last Name"> <br> 
-                <input type="email" name="" id="email" placeholder="Email Address"> <br>
-                <input type="password" minlength="8"  name="" id="password" placeholder="Password"> <br>
-                <button type="submit">claim your free trial</button>
+                <div class="field">
+                    <input type="text" minlength="6" name="" id="fname" placeholder="First Name"> 
+                    <p hidden class="txt">First Name cannot be empty</p>
+                </div> 
+                <div class="field">
+                    <input type="text" minlength="6"  name="" id="lname" placeholder="Last Name">
+                    <p hidden class="txt">Last Name cannot be empty</p> 
+                </div>
+                <div class="field">
+                    <input type="email" name="" id="email" placeholder="Email Address">
+                    <p hidden class="txt">Looks like this is not an email</p>
+                </div>
+                <div class="field">   
+                    <input type="password" minlength="8"  name="" id="password" placeholder="Password">
+                    <p hidden class="txt">Password cannot be empty</p>
+                </div>
+                <button  type="submit">claim your free trial</button>
                 <p>
                     By clicking the button, you are agreeing to our <span style="color: hsl(0, 100%, 74%); font-weight: bold; cursor: pointer;">Terms and Services</span>
                 </p>

@@ -42,15 +42,29 @@ article p {
 input {
     height: 3em;
     width: 100%;
-    margin-bottom: 35px;
     border: 1px solid rgb(221, 213, 213);
     border-radius: 5px;
-    padding: 0 .7em;
+    padding: 1.6em 1.5em;
     outline: none;
 }
 
-.red {
-    border-color: red;
+.field {
+    margin-bottom: 35px;
+    
+}
+
+.error {
+    border: 1.4px solid red;
+}
+
+.error::placeholder {
+    color: red;
+}
+
+.txt {
+    color: red;
+    text-align: right;
+    font-weight: 500;
 }
 
 button {
@@ -61,6 +75,7 @@ button {
     border-radius: 5px;
     color: white;
     text-transform: uppercase;
+    box-shadow: hsl(154, 45%, 46%) 0px 4px;
     
 }
 
