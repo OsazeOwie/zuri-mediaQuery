@@ -72,7 +72,6 @@ input {
     padding: 1em 3.5em;
     background-color: hsl(154, 59%, 51%);
     border: none;
-    border-radius: 5px;
     color: white;
     text-transform: uppercase;
     box-shadow: hsl(154, 45%, 46%) 0px 4px;
