@@ -11,7 +11,6 @@ if (fname.value.length == '') {
    fname.className = "error"
    fname.removeAttribute("placeholder")
    textError[0].removeAttribute("hidden")
-  
    
 }
 

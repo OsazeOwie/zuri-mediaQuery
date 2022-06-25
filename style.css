@@ -15,7 +15,7 @@ body {
 
 .form {
     background-color: rgb(255, 255, 255);
-    padding: 2em 3em;
+    padding: 2em 2em;
     border-radius: 5px; 
     color: hsl(246, 25%, 77%);
     box-shadow: rgba(0, 0, 0, 0.171) 0px 10px;
@@ -53,8 +53,14 @@ input {
     
 }
 
+/* css for form validation */
+
 .error {
     border: 1.4px solid red;
+    background-image: url(/img/icon-error.svg);
+    background-position: 95%;
+    background-size: 20px;
+    background-repeat: no-repeat;
 }
 
 .error::placeholder {
@@ -66,6 +72,9 @@ input {
     text-align: right;
     font-weight: 500;
 }
+
+/* end */
+
 
 .btn {
     cursor: pointer;
