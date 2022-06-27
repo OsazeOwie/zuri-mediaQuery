@@ -25,18 +25,13 @@ if (email.value.length == '') {
    email.className = "error"
    email.setAttribute("placeholder", "email@example/com")
    textError[2].removeAttribute("hidden")
-   
 }
 
 if (password.value.length == '') {
    password.className = "error"
    password.removeAttribute("placeholder")
    textError[3].removeAttribute("hidden")
-   return false
 }
 
-else {
-   alert("Form submitted successfully")
-}
-
+return false
 }
