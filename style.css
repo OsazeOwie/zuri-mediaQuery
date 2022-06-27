@@ -120,5 +120,9 @@ input {
         padding: 1em 8em;
     }
 
+    input {
+        width: 430px;
+    }
+
     
 }
