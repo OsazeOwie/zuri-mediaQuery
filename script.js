@@ -34,4 +34,4 @@ if (password.value.length == '') {
 }
 
 return false
-}
+};
